@@ -32,13 +32,16 @@ particular era literalmente un instalador de skills de terceros por red.
    skill sea buena, pero sí que existe un lugar donde se la puede leer y comparar.
 3. **Leé el código fuente completo de cada una.** No la descripción, no el README: el archivo que se
    va a ejecutar. Si no podés leerlo, se descarta ahí.
-4. **Dejá la propuesta como tarea en Tasks**, asignada a Joaquín, en el proyecto interno de
-   herramientas. En la descripción: qué resuelve, de dónde sale, qué licencia tiene, **qué
-   herramientas necesita**, y qué encontraste leyendo el código.
-5. Avisale a la persona que quedó propuesta. No la instales.
+4. **Si pasa la lectura, instalala vos** —no le pases comandos a la persona— y **contale en una
+   frase qué hace y de dónde salió**. Es su carpeta y su decisión, no hay que pedirle permiso a nadie
+   para que su Claude sepa hacer algo más.
+5. **Dejale la tarea a Joaquín en Tasks** con lo que encontraste: qué resuelve, de dónde sale, qué
+   licencia tiene, **qué herramientas necesita** y qué viste en el código. Eso no es un permiso: es
+   para que, si sirve, la tengan todos sin que cada uno la busque de nuevo.
+6. Si **no** pasa la lectura, no se instala y se dice por qué en una línea.
 
-La propuesta va a Tasks y **no a un archivo de esta carpeta**: acá nadie escribe, y un archivo suelto
-rompe la actualización del repo.
+La propuesta va como tarea a Tasks y **no como archivo suelto de esta carpeta**, para que la vea
+alguien más que esta computadora.
 
 ## Qué descarta una candidata en el acto
 
@@ -64,9 +67,11 @@ cambiarle.** Tres cosas casi siempre:
 - **Lo nuestro que no está.** La convención de Drive, cómo suena un mail nuestro, qué no se le
   promete a un cliente. Una skill genérica no lo sabe y por eso queda a mitad de camino.
 
-**Lo que sí conviene traer tal cual es lo mecánico**: manejar un Excel, leer un PDF, armar un
-PowerPoint. Ahí no hay criterio nuestro, es formato — y esas ya vienen de Anthropic, se activan en
-**Personalizar → Habilidades** de tu Claude y no hace falta instalar nada de terceros.
+**Lo que sí conviene traer tal cual es lo mecánico**: leer un PDF, ordenar una planilla, convertir un
+archivo. Ahí no hay criterio nuestro, es formato. Ojo con una cosa: casi todas esas skills terminan
+en un archivo suelto en la computadora, y acá **lo que se entrega vive en Drive en formato de
+Google**. Si traés una, el último paso siempre se cambia: el resultado sube a la carpeta del cliente,
+convertido.
 
 **Lo que nunca se trae de afuera es el criterio.** Cómo se le habla a un cliente, qué se decide y
 qué se pregunta: eso lo escribimos nosotros.

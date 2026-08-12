@@ -26,7 +26,8 @@ Créala con `create_task` ya asignada, en el proyecto que corresponda, y aclará
 
 ## Lo que no va
 
-- **Sumar gente al proyecto no se hace desde acá**, se hace desde la pantalla de Tasks. Si la
-  persona no aparece en `list_members` del proyecto, decí eso y dónde está el botón.
+- **Si la persona no aparece en `list_members` del proyecto**, todavía no está sumada y eso lo
+  habilita Joaquín. Dejale la tarea con el nombre y el proyecto, y avisá que quedó pedido. No mandes
+  a nadie a buscar un botón.
 - No reasignes lo que ya está en curso de otro sin decirlo: primero avisá que la tarea tiene
   responsable y desde cuándo.

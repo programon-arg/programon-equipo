@@ -36,6 +36,24 @@ la mitad a la otra.
 
 Si de verdad falta, creá los dos niveles de una: la de cliente y adentro la del proyecto, con el año.
 
+## Para crear un documento
+
+Todo lo que se entrega vive acá y **en formato de Google** — Documento, Presentación, Hoja de
+cálculo—, nunca como archivo suelto en la computadora de alguien.
+
+- **Un documento nuevo** se crea directo en la carpeta del proyecto. Mandá el contenido como HTML, no
+  como texto pelado: así conserva los títulos, las negritas y las listas en vez de llegar como un
+  bloque plano.
+- **Un archivo que ya existe** —un PDF que generaste, una planilla— se sube a la carpeta del proyecto
+  y se deja **convertir al formato de Google**. Así se puede comentar y no queda una versión muerta.
+- **El archivo intermedio** que hizo falta para llegar ahí queda en `Proyectos/<cliente>/` y no se le
+  manda a nadie.
+- **Editar un documento que ya está en Drive** es lo único que el conector no hace bien. Si hay que
+  cambiar algo de fondo, es más limpio crear la versión nueva y decir cuál reemplaza a cuál que
+  intentar parcharlo.
+
+Cuando termines, pasá el link y decí en qué carpeta quedó.
+
 ## Para encontrar algo
 
 1. `search_files` por nombre de cliente o de proyecto. Los nombres siguen la convención de arriba,

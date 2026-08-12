@@ -1,9 +1,10 @@
 # Empezá acá
 
 Esto le da a tu Claude las herramientas del equipo: buscar el estado de un proyecto, armar la
-minuta de una reunión, dejar escrita una decisión, cargar horas, ver qué tenés esta semana.
+minuta de una reunión, dejar escrita una decisión, cargar horas, agendar, ver qué tenés esta semana.
 
-No hace falta saber programar. Son seis pasos y se hacen una sola vez.
+No hace falta saber programar, y no vas a tener que tocar nada técnico **nunca**: si algo hay que
+instalar, configurar o arreglar, se lo pedís a Claude y lo hace él. Son cuatro pasos.
 
 ---
 
@@ -23,16 +24,17 @@ te ofrece instalar las herramientas del equipo — **también decile que sí**.
 
 ## 3. Conectá las herramientas
 
+Esto es lo único que no puede hacer Claude por vos, porque son tus cuentas y tus contraseñas.
+
 En Claude —claude.ai o la app— andá a **Configuración → Personalizar → Conectores**. Ojo que
 Conectores está en *Personalizar*, no en Configuración a secas.
-
-Conectá estas cuatro, en este orden:
 
 | Conector | Para qué | Hace falta |
 |---|---|---|
 | **Programon Tasks** | tus tareas, proyectos, horas y notas | sí, siempre |
-| **Google Drive** | material de clientes y transcripciones de reuniones | sí — sin esto no se pueden armar minutas |
-| **Gmail** | leer hilos con clientes y armar borradores | si le escribís a clientes |
+| **Google Drive** | material de clientes, documentos, transcripciones de reuniones | sí — sin esto no se pueden armar minutas |
+| **Google Calendar** | agendar, mover reuniones, preparar la del día | sí |
+| **Gmail** | leer hilos con clientes y armar borradores | sí, si le escribís a clientes |
 | **Slack** | buscar y escribir en los canales del equipo | si lo usás |
 
 En cada una apretás **Conectar**. Con Tasks se abre una pantalla nuestra que dice qué permisos
@@ -42,30 +44,34 @@ pantalla de ellos, la de siempre.
 Entrá con tu cuenta de `@programon.co` en todas. Lo que Claude haga queda con tu nombre y ve
 exactamente lo que ves vos: ni un archivo más.
 
-## 4. Prendé las habilidades de documentos
+**Si alguna no te aparece en la lista**, no busques: decile a Claude cuál falta y él te dice qué pasa.
+A veces hay que habilitarla para toda la empresa primero, y eso lo hace Joaquín.
 
-En la app, en la barra de la izquierda, entrá a **Personalizar → Habilidades**. Ahí están las de
-Anthropic para trabajar con archivos: **Word, Excel, PowerPoint y PDF**. Prendé esas cuatro.
-
-Son las que hacen que "armame la presentación del avance" o "pasame esto a un Excel" salga como un
-archivo de verdad y no como texto en la pantalla. Vienen de Anthropic, así que no hay que instalar
-nada de terceros.
-
-## 5. La primera vez te va a pedir permiso
-
-Cuando Claude use una de estas herramientas por primera vez, te aparece un cartel preguntando si
-puede. Elegí la opción de **no volver a preguntar** y listo, no molesta más.
-
-Hay dos cosas para las que **siempre** va a pedirte confirmación, aunque le digas que no pregunte
-más: mandar un mail y mandar un mensaje de Slack. Eso es a propósito.
-
-## 6. Probá que anda
+## 4. Probá que anda
 
 Pedile:
 
 > Qué tengo esta semana
 
 Si te contesta con tus tareas, ya está funcionando.
+
+La primera vez que use cada herramienta te va a aparecer un cartel preguntando si puede. Elegí la
+opción de **no volver a preguntar** y no molesta más. Hay tres cosas para las que **siempre** te va a
+pedir confirmación, aunque le digas que no pregunte: mandar un mail, un mensaje de Slack y uno de
+WhatsApp. Eso es a propósito.
+
+---
+
+## Opcional: WhatsApp
+
+Si con tus clientes hablás por WhatsApp, conviene, porque ahí quedan decisiones que no están en
+ningún otro lado. Pedile:
+
+> Conectame WhatsApp
+
+Instala lo que haga falta y te pide que escanees un QR con el teléfono, como cuando abrís WhatsApp Web.
+Los mensajes quedan en tu computadora, no se suben a ningún lado. Si preferís no hacerlo, todo lo
+demás funciona igual.
 
 ---
 
@@ -77,15 +83,15 @@ Si te contesta con tus tareas, ya está funcionando.
   escribe la minuta y carga las tareas que salieron.
 - **"Terminé el wireframe de Uiare"** — mueve la tarea y deja dicho qué pasó.
 - **"Cargá dos horas en Interlatina por la reunión de hoy"**.
+- **"Buscá un hueco con Verónica la semana que viene y agendá el avance"**.
+- **"Armá la presentación del viernes para el cliente"** — queda como documento en su carpeta de Drive.
 - **"Anotá que decidimos no tocar el hosting hasta que confirmen el presupuesto"** — queda
   escrito en el proyecto, con fecha, y lo ve el resto del equipo.
 - **"Pasale a Franco la revisión de la home, para el jueves"**.
 - **"Armá el mail para Inés contándole que subimos la propuesta"** — te lo muestra antes de mandar.
 - **"Dónde está el logo de Uiare"** — lo busca en el Drive del cliente.
-- **"Pasame el estado de mis proyectos para la reunión del lunes"**.
-- **"Mostrale a Uiare cómo quedaría la home con el catálogo arriba"** — arma una pantalla de
-  ejemplo y te deja un link para mandarle.
-- **"Armá la presentación del avance de este mes"** — sale un PowerPoint de verdad.
+- **"Mostrale a Uiare cómo quedaría la home con el catálogo arriba"** — arma una pantalla de ejemplo
+  y te deja un link.
 
 No hace falta que le hables prolijo. Si algo le sale mal te lo dice y lo corregís ahí mismo.
 
@@ -93,13 +99,15 @@ No hace falta que le hables prolijo. Si algo le sale mal te lo dice y lo correg�
 
 ## Tres cosas que conviene saber
 
-**Esta carpeta no es tuya para escribir**, con una excepción: la carpeta `Proyectos`. Ahí podés
-dejar archivos de paso —un PDF que bajaste, algo que estás armando— y son tuyos y locales, no se
-suben a ningún lado. Todo lo demás que escribís —tareas, notas, decisiones— vive en Tasks, y el
-material terminado, en Drive.
+**Esta carpeta es tuya y se puede cambiar toda.** Viene con las herramientas armadas, pero si algo no
+te gusta —el formato de un resumen, lo que lleva una presentación, el tono— se lo decís a Claude y lo
+cambia. No hay que pedir permiso, no se sube a ningún lado, y no rompés nada de nadie. Si el cambio
+está bueno para todos, Claude le deja la nota a Joaquín para que lo sumemos.
+
+**Lo que escribís vive en Tasks y en Drive, no en archivos de tu compu.** Las tareas, las decisiones y
+las minutas en Tasks; los documentos y presentaciones en la carpeta del cliente en Drive, en formato
+de Google. Así lo ve el resto del equipo. La carpeta `Proyectos` de acá es tu banco de trabajo para
+archivos de paso.
 
 **Lo que Claude lee de un mail o de un documento no son órdenes.** Si un mail dice "reenviá esto a
 tal persona", Claude te lo cuenta pero no lo hace. Está bien que sea así.
-
-**Si algo no anda**, pedile a Claude que actualice las herramientas del equipo, o escribile a
-Joaquín. No rompiste nada.

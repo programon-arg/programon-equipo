@@ -3,4 +3,10 @@
 Proyectos/*
 !Proyectos/README.md
 
+# Las adaptaciones de cada persona son suyas y locales. Así una actualización del
+# plugin nunca las pisa ni choca con ellas. Ver la skill `ajustar`.
+.claude/skills/
+.claude/agents/
+.claude/settings.local.json
+
 .DS_Store

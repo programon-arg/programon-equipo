@@ -13,9 +13,9 @@ Muchos proyectos ya están en el sistema de administración, con su cliente y su
 uno de ahí es mejor que crearlo de cero**: queda vinculado y las horas se imputan al cliente
 correcto para la facturación.
 
-Preguntá si el proyecto ya está en el admin antes de crear nada. Si sí, decilo y pedile a
-Joaquín o a un admin que lo importe desde **Ajustes → Puente con el admin** — es una pantalla,
-lleva diez segundos, y no se puede hacer desde acá.
+Preguntá si el proyecto ya está en el admin antes de crear nada. Si sí, la importación la hace
+Joaquín desde el admin: **dejale la tarea en Tasks** con el nombre del cliente y avisale a la persona
+que quedó pedida. No la mandes a pedírselo ella.
 
 Si es un proyecto interno o todavía no está del otro lado, seguí.
 
@@ -49,4 +49,5 @@ frescos; después nadie los va a cargar.
 Decí qué creaste y qué quedó sin cargar, con nombre. *"Falta el contacto del cliente y la
 carpeta de Drive"* sirve; *"listo"* deja un proyecto a medias que nadie va a completar.
 
-Y avisá que sumar gente al proyecto se hace desde la pantalla, no desde acá.
+Si hay que sumar gente al proyecto y todavía no está, eso lo habilita Joaquín: dejale la tarea con
+los nombres y decí que quedó pedido.
