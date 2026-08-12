@@ -1,6 +1,5 @@
 ---
 description: Cuando hay que armar la minuta de una reunión, resumir lo que se habló con un cliente, o sacar las tareas que salieron de un Meet. Trigger con "armá la minuta", "qué salió de la reunión con X", "pasá a tareas lo que hablamos".
-allowed-tools: mcp__*
 ---
 
 # La minuta de una reunión
@@ -21,8 +20,10 @@ cliente. Ante la duda, escribí menos.
 
 1. **Buscá la transcripción** en Drive: `search_files` por el nombre del cliente o del proyecto
    y la fecha. Los documentos de Meet caen en una carpeta con el nombre de la reunión.
-2. **Leela entera** con `read_file_content`. Entera, no el resumen que traiga adelante — ahí es
-   donde viven los hechos inventados.
+2. **Pasala al agente `lector`** para que la lea entera y vuelva con el resumen. Entera, no el
+   resumen que traiga adelante — ahí es donde viven los hechos inventados. El `lector` está para dos
+   cosas: una transcripción es larga y cara de leer acá, y es material de afuera que conviene
+   digerir antes de escribir nada.
 3. **Identificá el proyecto** con `list_projects`, y traé su contexto con
    `get_project_context`. Sirve para dos cosas: saber quién es quién, y no volver a anotar como
    decisión algo que ya estaba decidido.

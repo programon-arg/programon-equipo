@@ -9,5 +9,16 @@
   },
   "enabledPlugins": {
     "pm@programon": true
+  },
+  "permissions": {
+    "ask": [
+      "mcp__*send*",
+      "mcp__*create_draft*",
+      "mcp__*update_draft*",
+      "mcp__*schedule_message*",
+      "mcp__*trash*",
+      "mcp__*delete*",
+      "mcp__*spam*"
+    ]
   }
 }

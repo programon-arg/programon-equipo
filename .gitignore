@@ -1,0 +1,6 @@
+# El banco de trabajo es local: nada de lo que cae adentro se versiona ni se pushea.
+# Ver Proyectos/README.md para la regla.
+Proyectos/*
+!Proyectos/README.md
+
+.DS_Store

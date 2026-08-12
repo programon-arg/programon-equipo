@@ -1,6 +1,5 @@
 ---
 description: Cuando hay que reportar cómo viene todo — "el estado para la reunión del lunes", "pasame el resumen de mis proyectos", "armá el reporte semanal", "cómo venimos con todos los clientes".
-allowed-tools: mcp__*
 ---
 
 # El estado de todos los proyectos

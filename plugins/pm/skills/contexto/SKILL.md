@@ -1,6 +1,5 @@
 ---
 description: Cuando alguien pregunta cómo viene un proyecto, pide ponerse al día con uno, va a una reunión de cliente, o dice "contame de X", "en qué está Y", "necesito el estado de Z". También antes de trabajar sobre un proyecto que no conocés.
-allowed-tools: mcp__*
 ---
 
 # El estado de un proyecto

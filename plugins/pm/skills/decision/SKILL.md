@@ -1,6 +1,5 @@
 ---
 description: Cuando alguien quiere dejar algo escrito en un proyecto — "anotá que decidimos X", "guardá esto", "que quede registrado", "el cliente dijo que…" — o cuando en una conversación aparece una decisión que se va a perder si nadie la escribe.
-allowed-tools: mcp__*
 ---
 
 # Dejar escrito el porqué

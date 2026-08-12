@@ -1,6 +1,5 @@
 ---
 description: Cuando alguien pregunta qué tiene que hacer — "qué tengo hoy", "qué tengo esta semana", "por dónde arranco", "qué me vence", "cómo vengo" — o arranca el día sin decir nada concreto.
-allowed-tools: mcp__*
 ---
 
 # Qué tengo por delante

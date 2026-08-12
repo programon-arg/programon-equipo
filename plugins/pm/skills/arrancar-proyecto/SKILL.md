@@ -1,6 +1,5 @@
 ---
 description: Cuando arranca un proyecto nuevo o entra un cliente nuevo — "creá el proyecto X", "arrancamos con Y", "dimos de alta a Z", "hay que abrir el proyecto de…". También cuando un proyecto ya existe en el sistema de administración y hay que traerlo.
-allowed-tools: mcp__*
 ---
 
 # Arrancar un proyecto
@@ -28,7 +27,8 @@ Si es un proyecto interno o todavía no está del otro lado, seguí.
 3. `add_project_contact` con quién atiende del lado del cliente. Alcanza el nombre; marcá
    `isPrimary` en el que contesta primero.
 4. `add_project_link` con lo que ya exista: la carpeta de Drive, el staging, el repo, el
-   documento de la propuesta.
+   documento de la propuesta. Si el cliente todavía no tiene carpeta en Drive, armala con la
+   convención de dos niveles — ver la skill `drive` — y cargá el link acá.
 5. Si ya se sabe cómo se divide, `create_phase` por etapa con sus fechas. Si todavía no, no
    inventes fases: un roadmap de mentira es peor que ninguno.
 
