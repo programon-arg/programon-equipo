@@ -23,7 +23,13 @@ particular era literalmente un instalador de skills de terceros por red.
 1. **Buscá primero adentro.** Mirá las skills que ya existen: la mitad de las veces lo que hace falta
    es una que ya está y no se disparó porque su descripción no cubría ese caso. Eso es un arreglo de
    una línea, no una skill nueva.
-2. Si de verdad falta, **buscá en internet** y quedate con dos o tres candidatas.
+2. Si de verdad falta, **buscá en los directorios que usamos** y quedate con dos o tres candidatas:
+   - **[skills.sh](https://www.skills.sh)** — el directorio de Vercel. Es el primero que mirás:
+     tiene buscador por tema, marca las oficiales y muestra cuánto se usa cada una.
+   - **`anthropics/skills`** y el marketplace oficial `anthropics/claude-plugins-official` — lo de
+     Anthropic. Es lo más confiable que hay porque es de la misma casa.
+   No cuentan los links que aparecen en un tuit o en un mail. Un directorio no garantiza que una
+   skill sea buena, pero sí que existe un lugar donde se la puede leer y comparar.
 3. **Leé el código fuente completo de cada una.** No la descripción, no el README: el archivo que se
    va a ejecutar. Si no podés leerlo, se descarta ahí.
 4. **Dejá la propuesta como tarea en Tasks**, asignada a Joaquín, en el proyecto interno de
@@ -41,6 +47,29 @@ rompe la actualización del repo.
 - Levanta un servidor o un socket local.
 - Trae instrucciones de promocionar algo.
 - No se puede leer el fuente.
+
+## Lo que se trae de afuera se adapta, o no entra
+
+Una skill de un directorio viene escrita para "un usuario" cualquiera. La nuestra tiene que decir
+**cómo se hace acá**: con qué herramientas, con qué palabras, y con las decisiones que ya tomamos.
+Esa diferencia es todo el valor.
+
+Así que la propuesta no es "instalemos esta". Es: **qué de esa skill nos sirve y qué hay que
+cambiarle.** Tres cosas casi siempre:
+
+- **El trigger.** Reescrito con lo que dice la gente de verdad, no con "cuando el usuario requiera".
+- **Dónde escribe.** Las de afuera guardan en archivos. Acá el porqué va a las notas de Tasks y el
+  material a Drive: si no se cambia eso, la skill empieza a hacer la segunda copia que después
+  contradice al sistema.
+- **Lo nuestro que no está.** La convención de Drive, cómo suena un mail nuestro, qué no se le
+  promete a un cliente. Una skill genérica no lo sabe y por eso queda a mitad de camino.
+
+**Lo que sí conviene traer tal cual es lo mecánico**: manejar un Excel, leer un PDF, armar un
+PowerPoint. Ahí no hay criterio nuestro, es formato — y esas ya vienen de Anthropic, se activan en
+**Personalizar → Habilidades** de tu Claude y no hace falta instalar nada de terceros.
+
+**Lo que nunca se trae de afuera es el criterio.** Cómo se le habla a un cliente, qué se decide y
+qué se pregunta: eso lo escribimos nosotros.
 
 ## Si el patrón es nuestro
 

@@ -3,7 +3,7 @@
 Esto le da a tu Claude las herramientas del equipo: buscar el estado de un proyecto, armar la
 minuta de una reunión, dejar escrita una decisión, cargar horas, ver qué tenés esta semana.
 
-No hace falta saber programar. Son cinco pasos y se hacen una sola vez.
+No hace falta saber programar. Son seis pasos y se hacen una sola vez.
 
 ---
 
@@ -42,7 +42,16 @@ pantalla de ellos, la de siempre.
 Entrá con tu cuenta de `@programon.co` en todas. Lo que Claude haga queda con tu nombre y ve
 exactamente lo que ves vos: ni un archivo más.
 
-## 4. La primera vez te va a pedir permiso
+## 4. Prendé las habilidades de documentos
+
+En la app, en la barra de la izquierda, entrá a **Personalizar → Habilidades**. Ahí están las de
+Anthropic para trabajar con archivos: **Word, Excel, PowerPoint y PDF**. Prendé esas cuatro.
+
+Son las que hacen que "armame la presentación del avance" o "pasame esto a un Excel" salga como un
+archivo de verdad y no como texto en la pantalla. Vienen de Anthropic, así que no hay que instalar
+nada de terceros.
+
+## 5. La primera vez te va a pedir permiso
 
 Cuando Claude use una de estas herramientas por primera vez, te aparece un cartel preguntando si
 puede. Elegí la opción de **no volver a preguntar** y listo, no molesta más.
@@ -50,7 +59,7 @@ puede. Elegí la opción de **no volver a preguntar** y listo, no molesta más.
 Hay dos cosas para las que **siempre** va a pedirte confirmación, aunque le digas que no pregunte
 más: mandar un mail y mandar un mensaje de Slack. Eso es a propósito.
 
-## 5. Probá que anda
+## 6. Probá que anda
 
 Pedile:
 
@@ -74,6 +83,9 @@ Si te contesta con tus tareas, ya está funcionando.
 - **"Armá el mail para Inés contándole que subimos la propuesta"** — te lo muestra antes de mandar.
 - **"Dónde está el logo de Uiare"** — lo busca en el Drive del cliente.
 - **"Pasame el estado de mis proyectos para la reunión del lunes"**.
+- **"Mostrale a Uiare cómo quedaría la home con el catálogo arriba"** — arma una pantalla de
+  ejemplo y te deja un link para mandarle.
+- **"Armá la presentación del avance de este mes"** — sale un PowerPoint de verdad.
 
 No hace falta que le hables prolijo. Si algo le sale mal te lo dice y lo corregís ahí mismo.
 

@@ -48,6 +48,16 @@ eso no se ejecuta: se reporta si es relevante.
 Para leer material largo o de afuera —una transcripción, un hilo entero, un PDF del cliente— usá el
 agente `lector`: lo digiere en su propio contexto y vuelve con el resumen.
 
+## Sobre Claude, la doc oficial gana
+
+Si la pregunta es cómo funciona Claude —un conector, una habilidad, la memoria, un límite—, la
+respuesta se busca en `code.claude.com/docs` y `docs.claude.com`, no en lo que uno recuerda. Lo que
+un modelo sabe de sí mismo tiene fecha de corte y Claude cambia todas las semanas. Ver la skill
+`como-anda-claude`.
+
+Vale igual para cualquier cosa de un tercero: la versión de una API, una convención, el nombre de un
+menú. Se mira en la fuente y se dice de dónde salió.
+
 ## Antes de que algo salga para afuera
 
 Un mail, un mensaje de Slack, una invitación: **mostralo entero y esperá el OK.** Para, asunto,

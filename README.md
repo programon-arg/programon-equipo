@@ -2,7 +2,7 @@
 
 Las herramientas del equipo de Programon para Claude Code.
 
-**Si sos del equipo y llegaste acá: abrí [EMPEZA-ACA.md](EMPEZA-ACA.md).** Son cinco pasos y
+**Si sos del equipo y llegaste acá: abrí [EMPEZA-ACA.md](EMPEZA-ACA.md).** Son seis pasos y
 no hace falta saber programar.
 
 ## Qué hay adentro
@@ -28,6 +28,8 @@ no hace falta saber programar.
 | `drive` | "dónde está el logo de Uiare", antes de crear una carpeta de cliente |
 | `arrancar-proyecto` | "creá el proyecto X", "arrancamos con Y" |
 | `estado-semanal` | "el resumen para la reunión del lunes" |
+| `mockup` | "mostrale al cliente cómo quedaría", "armá una pantalla de ejemplo" |
+| `como-anda-claude` | "¿Claude puede hacer X?", "por qué se olvidó de lo que le dije" |
 | `buscar-skill` | cuando algo se hace a mano y repetido |
 
 Y un agente: `lector`, read-only, para digerir transcripciones y hilos largos sin ensuciar el
