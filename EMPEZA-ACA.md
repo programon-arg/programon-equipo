@@ -4,7 +4,18 @@ Esto le da a tu Claude las herramientas del equipo: buscar el estado de un proye
 minuta de una reunión, dejar escrita una decisión, cargar horas, agendar, ver qué tenés esta semana.
 
 No hace falta saber programar, y no vas a tener que tocar nada técnico **nunca**: si algo hay que
-instalar, configurar o arreglar, se lo pedís a Claude y lo hace él. Son cuatro pasos.
+instalar, configurar o arreglar, se lo pedís a Claude y lo hace él.
+
+**El camino corto: abrí Claude Code y pegale esto.**
+
+```text
+Cloná https://github.com/programon-arg/programon-equipo en mi carpeta de proyectos y seguí
+el onboarding que está en el archivo ONBOARDING.md de ese repo. Es mi primera vez con esto:
+preguntame lo que necesites y configurá vos todo lo demás.
+```
+
+Con eso alcanza: te va guiando él y te hace las preguntas que necesita. Lo que sigue acá abajo es lo
+mismo explicado paso por paso, por si preferís leerlo antes.
 
 ---
 

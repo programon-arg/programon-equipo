@@ -2,8 +2,23 @@
 
 Las herramientas del equipo de Programon para Claude Code.
 
-**Si sos del equipo y llegaste acá: abrí [EMPEZA-ACA.md](EMPEZA-ACA.md).** Son cuatro pasos y no hace
-falta saber programar.
+## Sumar a alguien: el único mensaje que hay que mandar
+
+Que abra Claude Code y pegue esto. No hay nada que instalar antes ni nada que explicarle.
+
+```text
+Cloná https://github.com/programon-arg/programon-equipo en mi carpeta de proyectos y seguí
+el onboarding que está en el archivo ONBOARDING.md de ese repo. Es mi primera vez con esto:
+preguntame lo que necesites y configurá vos todo lo demás.
+```
+
+De ahí en adelante lo maneja Claude: instala las herramientas, le pide que conecte sus cuentas
+—lo único que no puede hacer él—, le hace cuatro preguntas, prueba que todo ande, y termina
+mostrándole qué tiene esta semana. Al final deja una tarea para Joaquín con lo que haya quedado
+pendiente de su lado.
+
+El guion vive en [ONBOARDING.md](ONBOARDING.md) y está escrito para Claude, no para la persona.
+La versión legible por humanos, si alguien prefiere leerla, es [EMPEZA-ACA.md](EMPEZA-ACA.md).
 
 ## Los dos principios
 
@@ -43,6 +58,7 @@ mejora sirve para todos, se sube al plugin y le llega al resto.
 | `mockup` | "mostrale al cliente cómo quedaría", "armá una pantalla de ejemplo" |
 | `arrancar-proyecto` | "creá el proyecto X", "arrancamos con Y" |
 | `estado-semanal` | "el resumen para la reunión del lunes" |
+| `onboarding` | "soy nuevo", "configurame esto", cuando alguien cambia de proyectos |
 | `ajustar` | "no me gusta cómo hace esto", "quiero que siempre…" |
 | `como-anda-claude` | "¿Claude puede hacer X?", "por qué se olvidó de lo que le dije" |
 | `buscar-skill` | cuando algo se hace a mano y repetido |

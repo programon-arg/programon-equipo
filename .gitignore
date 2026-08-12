@@ -9,4 +9,8 @@ Proyectos/*
 .claude/agents/
 .claude/settings.local.json
 
+# Quién es la persona: lo escribe el onboarding, se carga en todas sus sesiones,
+# y no viaja a nadie.
+CLAUDE.local.md
+
 .DS_Store
