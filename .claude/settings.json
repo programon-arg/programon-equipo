@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "programon": {
+      "source": {
+        "source": "github",
+        "repo": "programon-arg/programon-equipo"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "pm@programon": true
+  }
+}

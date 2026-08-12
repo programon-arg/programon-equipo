@@ -1,0 +1,15 @@
+{
+  "name": "programon",
+  "description": "Las herramientas internas del equipo de Programon para llevar proyectos con Claude.",
+  "owner": {
+    "name": "Programon",
+    "email": "joaquinberardi@programon.co"
+  },
+  "plugins": [
+    {
+      "name": "pm",
+      "source": "./plugins/pm",
+      "description": "Las herramientas del equipo de Programon: contexto de proyecto, minutas, decisiones y qué tenés esta semana."
+    }
+  ]
+}

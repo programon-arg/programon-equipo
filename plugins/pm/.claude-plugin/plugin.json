@@ -1,0 +1,6 @@
+{
+  "name": "pm",
+  "description": "Herramientas del equipo de Programon para llevar proyectos: contexto, minutas, decisiones y planificación semanal.",
+  "version": "0.1.0",
+  "author": { "name": "Programon" }
+}
