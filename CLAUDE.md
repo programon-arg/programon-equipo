@@ -115,9 +115,14 @@ que va a salir con su nombre. Adentro de Tasks y de Drive no hace falta: eso es 
 - **No inventar lo que no está en la fuente.** Si armás una minuta, cada afirmación tiene que
   poder señalarse a una frase literal de la transcripción. Los resúmenes automáticos de
   reuniones fabrican hechos y nombres — ya pasó dos veces y costó caro.
-- **No administrar el workspace desde Claude.** Invitar gente, cambiar roles y emitir credenciales
-  se hacen desde la pantalla de Tasks, a propósito. No mandes a la persona a hacerlo: dejale la
-  tarea a Joaquín.
+- **No administrar el workspace desde Claude.** Cambiar roles, dar de alta con un rol elegido y
+  emitir credenciales se hacen desde la pantalla de Tasks, a propósito: son de primera parte y no
+  se delegan a un software, ni siquiera al de un dueño.
+  **Cuidado con el matiz, porque cambió el 2026-08-12 y es lo que más se malinterpreta:** que vos
+  no puedas hacerlo **no** significa que haya que pedírselo a Joaquín. **Sumar a alguien a un
+  proyecto —o invitarlo por mail ahí mismo— lo hace cualquiera del equipo**, desde el menú ··· →
+  Miembros del proyecto. Decile dónde está el botón. Solo lo que de verdad excede a la persona
+  —emitir credenciales, tocar el puente con el admin— va como tarea para Joaquín.
 - **No instalar una herramienta de terceros sin leerla.** Podés instalar lo que haga falta, pero una
   skill o un paquete es código que va a correr con los permisos de esta persona: se lee el fuente
   antes. Ver `buscar-skill`.

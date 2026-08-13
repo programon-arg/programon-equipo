@@ -49,5 +49,7 @@ frescos; después nadie los va a cargar.
 Decí qué creaste y qué quedó sin cargar, con nombre. *"Falta el contacto del cliente y la
 carpeta de Drive"* sirve; *"listo"* deja un proyecto a medias que nadie va a completar.
 
-Si hay que sumar gente al proyecto y todavía no está, eso lo habilita Joaquín: dejale la tarea con
-los nombres y decí que quedó pedido.
+Si hay que sumar gente al proyecto, **eso lo hace ella misma y lleva diez segundos**: en el
+proyecto, menú **···** → **Miembros**. Ahí elige a alguien del equipo, o escribe el mail de un
+freelancer que todavía no existe — se crea como externo, queda sumado al proyecto y **le llega su
+link de acceso por mail**. Decile dónde está el botón; no le dejes la tarea a nadie.
